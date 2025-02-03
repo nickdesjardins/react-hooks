@@ -11,8 +11,14 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        muted: "var(--muted-background)",
+        input: {
+          background: "var(--input-background)",
+          foreground: "var(--input-foreground)",
+        },
       },
     },
   },
+  darkMode: 'class',
   plugins: [],
 } satisfies Config;

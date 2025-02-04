@@ -9,7 +9,7 @@ interface ChildHandles {
 }
 
 // Child component with forwarded ref
-const ChildInput = forwardRef<ChildHandles, {}>((props, ref) => {
+const ChildInput = forwardRef<ChildHandles>((_, ref) => {
   const inputRef = useRef<HTMLInputElement>(null)
 
   // Expose specific methods to parent

@@ -33,7 +33,7 @@ export default function LayoutEffectExample() {
     if (position === 'left') {
       setPosition('right');
     }
-  }, []);
+  }, [position]); // Add position to dependency array
 
   return (
     <div className="p-4">

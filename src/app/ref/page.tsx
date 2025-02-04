@@ -55,7 +55,7 @@ export default function UseRefExample() {
           onClick={incrementCounter}
           className="bg-green-500 text-white px-4 py-2 rounded mr-2 mb-2"
         >
-          Increment (won't re-render)
+          Increment (won&apos;t re-render)
         </button>
         <button
           onClick={showCount}

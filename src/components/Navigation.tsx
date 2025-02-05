@@ -90,6 +90,12 @@ export default function Navigation() {
                 >
                   useLayoutEffect
                 </Link>
+                <Link 
+                  href="/action-state" 
+                  className="block px-4 py-2 text-foreground hover:bg-foreground/10 transition-colors"
+                >
+                  useActionState
+                </Link>
               </div>
             )}
           </div>

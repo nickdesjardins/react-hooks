@@ -43,6 +43,11 @@ export default function Home() {
           
           <div className="space-y-4">
             <div className="border p-4 rounded-lg hover:shadow-md transition-shadow">
+              <a href="/action-state" className="text-xl font-medium hover:underline">useActionState</a>
+              <p className="text-gray-600">Track the state of async actions and transitions in React applications.</p>
+            </div>
+
+            <div className="border p-4 rounded-lg hover:shadow-md transition-shadow">
               <a href="/reducer" className="text-xl font-medium hover:underline">useReducer</a>
               <p className="text-gray-600">Manage complex state logic using a reducer pattern, similar to Redux.</p>
             </div>
@@ -86,11 +91,6 @@ export default function Home() {
             <div className="border p-4 rounded-lg hover:shadow-md transition-shadow">
               <a href="/deferred-value" className="text-xl font-medium hover:underline">useDeferredValue</a>
               <p className="text-gray-600">Defer updating less important parts of the UI to avoid blocking more critical updates.</p>
-            </div>
-
-            <div className="border p-4 rounded-lg hover:shadow-md transition-shadow">
-              <a href="/action-state" className="text-xl font-medium hover:underline">useActionState</a>
-              <p className="text-gray-600">Track the state of async actions and transitions in React applications.</p>
             </div>
           </div>
         </section>
